@@ -1,0 +1,179 @@
+* {
+	user-select: none;
+}
+
+html, body {
+	overflow: hidden;
+}
+
+body {
+	scroll-behavior: smooth;
+	font-family: Arial;
+}
+
+.first-screen {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	background-color: #309ce3;
+	height: 100%;
+	width: 100%;
+}
+
+.btn-play {
+	width: 400px;
+	height: 200px;
+	background-color: #3cd9d3;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	border-radius: 50px;
+	transition-duration: 0.3s;
+}
+
+.btn-play:hover {
+	width: 405px;
+	height: 205px;
+	border-radius: 50px;
+	cursor: pointer;
+	background-color: #6cd9d9;
+}
+
+.btn-play:hover strong {
+	font-size: 43px;
+}
+
+
+.btn-play strong {
+	font-size: 40px;
+	color: white;
+  	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	transition-duration: 0.3s;
+}
+
+.second-screen {
+	color: white;
+	position: absolute;
+	left: 0px;
+	top: 100%;
+	height: 100%;
+	width: 100%;
+	background-color: #373d62;
+}
+
+.second-screen .btn-back {
+	width: 120px;
+	height: 50px;
+	background-color: white;
+	border-radius: 10px;
+	position: absolute;
+	top: 20px;
+	left: 88%;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+.second-screen .btn-back:hover {
+	background-color: #dedede;
+}
+
+.second-screen .btn-back strong {
+	color: black;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+}
+
+.second-screen h1 {
+	color: white;
+	font-size: 50px;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	top: 20px;
+	left: 50%;
+}
+
+.second-screen .field {
+	border-collapse: collapse;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+.second-screen .player {
+	top: 50%;
+	left: 25%;
+}
+
+.second-screen .robot {
+	top: 50%;
+	left: 75%;
+}
+
+.second-screen .field .tile {
+	background-color: rgba(255,255,255,0);
+	border: solid white;
+	transition-duration: 0.2s;
+}
+
+.second-screen .field .tile:hover {
+	background-color: rgba(255,255,255,0.2);
+}
+
+.second-screen .boat {
+	background-color: rgba(220, 220, 220, 0.5);
+	position: absolute;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+
+.second-screen .boat1 {
+	left: 20%;
+	top: 650px;
+	width: 160px;
+	height: 40px;
+}
+
+.second-screen .boat2 {
+	left: 30%;
+	top: 650px;
+	width: 120px;
+	height: 40px;
+}
+
+.second-screen .boat3 {
+	left: 20%;
+	top: 700px;
+	width: 120px;
+	height: 40px;
+}
+
+.second-screen .boat4 {
+	left: 30%;
+	top: 700px;
+	width: 80px;
+	height: 40px;
+}
+
+.second-screen .sound {
+	position: absolute;
+	top: 92%;
+	left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
